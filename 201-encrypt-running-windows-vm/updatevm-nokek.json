@@ -42,6 +42,7 @@
       "name": "[parameters('vmName')]",
       "location": "[parameters('location')]",
       "properties": {
+                "hardwareProfile": {"vmSize": "Standard_D2"}, 
         "storageProfile": {
           "osDisk": {
             "encryptionSettings": {
